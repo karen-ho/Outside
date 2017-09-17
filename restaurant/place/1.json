@@ -1,0 +1,39 @@
+{
+	"id": "1",
+	"name": "Perry's",
+	"queries": [
+		{
+			"query": "breakfast availability",
+			"answer": "daily"
+		}, {
+			"query": "specialty",
+			"answer": "comfort food"
+		}, {
+			"query": "lunch availability",
+			"answer": "daily, closed afternoon on weekends"
+		}, {
+			"query": "dinner availability",
+			"answer": "daily"
+		}, {
+			"query": "sides",
+			"answer": "mac n cheese with the bacon is to die for"
+		}, {
+			"query": "take-out order",
+			"answer": "placing order for ${items} with total of ${total}",
+			"trigger": "createInvoice"
+		}
+	],
+	"chatroom": "27520287178753",
+	"addons": {
+		"intuit": {
+			"realmId": "123145806794009",
+			"authorizationCode": "Q011505640294XOCWDClxP8P7d8n8mz0ZUAx3lXomCxb3KLsbF",
+			"items": {
+				"lasagna": {
+					"id": "19",
+					"amount": "19.95"
+				}
+			}
+		}
+	}
+}

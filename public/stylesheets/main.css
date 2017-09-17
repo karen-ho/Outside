@@ -1,0 +1,35 @@
+#main-phone {
+  text-align: center;
+  display: inline-block;
+  background-image: url('../phone.png');
+  width: 679px;
+  height: 677px;
+  background-size: 372px 705px;
+  background-repeat: no-repeat;
+}
+/* 704 × 1358 */
+#main-screen {
+  position: relative;
+  right: 154px;
+  top: 107px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+}
+
+#app-name {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+#power-by {
+  text-align: center;
+  color: darkgray;
+  margin-top: 50px;
+}
+
+#underline {
+  border-top: 1px solid lightgray;
+}
